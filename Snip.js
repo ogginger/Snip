@@ -5,13 +5,13 @@
 define([
   "rsvp",
   "backbone",
-  "Functions/log",
-  "Functions/file"
+  "file",
+  "Functions/log"
 ], function(
   rsvp,
   backbone,
-  log,
-  file
+  file,
+  log
 ) {
   return backbone.Model.extend({
     "initialize": function() {

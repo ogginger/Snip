@@ -6,12 +6,14 @@ define([
   "rsvp",
   "backbone",
   "file",
-  "Functions/log"
+  "Functions/log",
+	"render"
 ], function(
   rsvp,
   backbone,
   file,
-  log
+  log,
+	render
 ) {
   return backbone.Model.extend({
     "initialize": function() {
@@ -23,6 +25,8 @@ define([
       "Dir": "",
       "Snippets": {}
     },
+
+	"render": render,
     
     "snip": function( Input ) {
       var xSnip = this;

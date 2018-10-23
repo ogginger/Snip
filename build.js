@@ -9,12 +9,13 @@
 ({
     baseUrl: ".",
     paths: {
-			"rsvp": "lib/rsvp",
-     	"file": "lib/file",
-			"backbone": "lib/backbone",
-			"underscore": "lib/underscore",
-			"jquery": "empty:",
-			"fs": "empty:"
+	"rsvp": "lib/rsvp.min",
+     	"file": "lib/file.min",
+	"backbone": "lib/backbone.min",
+	"underscore": "lib/underscore.min",
+	"jquery": "empty:",
+	"fs": "empty:",
+	"render": "lib/render.min"
     },
     exclude: [ "rsvp", "file", "backbone", "underscore", "jquery", "fs" ],
     name: "Snip",

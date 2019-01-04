@@ -1,10 +1,10 @@
-//view.js: Visual logic.
+//<%= Name %>.js: Visual logic.
 
 define([
 	"jquery",
 	"underscore",
 	"backbone",
-	"Functions/log
+	"log"
 ], function(
 	$,
 	_,
@@ -13,7 +13,7 @@ define([
 ) {
 	return Backbone.View.extend({
 		"initialize": function() {
-			log("View initialized successfully!");
+			log("<%= Name %> initialized successfully!");
 		}
 	});
 });

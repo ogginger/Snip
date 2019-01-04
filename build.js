@@ -15,7 +15,8 @@
 	"underscore": "lib/underscore.min",
 	"jquery": "empty:",
 	"fs": "empty:",
-	"render": "lib/render.min"
+	"render": "lib/render.min",
+	"log": "lib/log.min"
     },
     exclude: [ "rsvp", "file", "backbone", "underscore", "jquery", "fs" ],
     name: "Snip",

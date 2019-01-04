@@ -6,7 +6,7 @@ define([
   "rsvp",
   "backbone",
   "file",
-  "Functions/log",
+  "log",
 	"render"
 ], function(
   rsvp,

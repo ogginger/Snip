@@ -16,7 +16,8 @@
 	"jquery": "empty:",
 	"fs": "empty:",
 	"render": "lib/render.min",
-	"log": "lib/log.min"
+	"log": "lib/log.min",
+	"validate": "lib/validate.min"
     },
     exclude: [ "rsvp", "file", "backbone", "underscore", "jquery", "fs" ],
     name: "Snip",
